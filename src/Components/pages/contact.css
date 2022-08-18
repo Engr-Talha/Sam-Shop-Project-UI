@@ -1,0 +1,28 @@
+.main-wrapper {
+    background-color: black;
+
+}
+
+.bannerimage {
+    height: 70vh;
+    width: 90vw;
+    border-radius: 30px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 30px;
+    padding-bottom: 20px;
+
+}
+
+.form-class {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+
+}

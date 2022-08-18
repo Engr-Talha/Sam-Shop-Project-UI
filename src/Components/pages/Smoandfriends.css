@@ -1,0 +1,327 @@
+.main-wrapper {
+    background-color: black;
+
+}
+
+.bannerimage {
+    height: 60vh;
+    width: 96vw;
+    border-radius: 30px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 30px;
+    padding-bottom: 20px;
+
+}
+
+.heading {
+
+    /* margin-top: 20px;
+    margin-bottom: 0px; */
+
+
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: none;
+    /* text-shadow: 3px 3px 4px white; */
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+
+.paddingtopandbottom {
+    margin: 40px 0px 40px 0px;
+}
+
+.hr {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.hrr {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10px;
+}
+
+.text {
+    margin-top: 70px;
+    margin-bottom: 7px;
+
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.div-contianer {
+    display: flex;
+    flex-direction: row;
+    width: 69vw;
+
+    padding: 10px;
+
+}
+
+.nfts {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+.nfts-second-row {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 17vh;
+
+}
+
+.nft1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#ffd500));
+    background-image: linear-gradient(180deg, #000, #ffd500);
+    text-align: center;
+}
+
+.name-of-nft {
+    margin-bottom: 55px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Changa One', Impact, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+}
+
+.wagmi---shop-button:hover {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    color: gray;
+
+}
+
+.button-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.smo-shop-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px 10px 60px;
+    border-radius: 10px;
+    background-color: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd500), to(#000));
+    background-image: linear-gradient(180deg, #ffd500, #000);
+    font-family: 'Changa One', Impact, sans-serif;
+}
+
+.logo-image-nft {
+    width: 10vw;
+}
+
+.nft-image {
+    width: 16vw;
+}
+
+.nft2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#2ebcff));
+    background-image: linear-gradient(180deg, #000, #2ebcff);
+    color: #fff;
+    text-align: center;
+}
+
+.isp-nft-page {
+    padding-bottom: 86px;
+    margin-top: 59px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Changa One', Impact, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+    padding-top: 26px;
+}
+
+.isp---series-button {
+    margin: 20px 25px 60px 17px;
+    border-radius: 10px;
+    background-color: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2ebcff), to(#000));
+    background-image: linear-gradient(180deg, #2ebcff, #000);
+    font-family: 'Changa One', Impact, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.wagmi---shop-button {
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color: #ed1c24;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#000));
+    background-image: linear-gradient(180deg, #ed1c24, #000);
+    font-family: 'Changa One', Impact, sans-serif;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s all;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.isp---series-button:hover {
+    color: gray;
+}
+
+.smo-shop-button:hover {
+    color: gray;
+}
+
+.wagmi---shop-button:hover {
+    color: gray;
+}
+
+.div-block-15 {
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(#5926a9), to(#5926a9));
+
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(180deg, #000, transparent), linear-gradient(180deg, #5926a9, #5926a9);
+
+}
+
+.nft2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#2ebcff));
+    background-image: linear-gradient(180deg, #000, #2ebcff);
+    color: #fff;
+    text-align: center;
+}
+
+.div-block {
+
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(50%, transparent)), -webkit-gradient(linear, left top, left bottom, from(#7c36ba), to(#7c36ba));
+    background-image: linear-gradient(180deg, #000, transparent 50%), linear-gradient(180deg, #7c36ba, #7c36ba);
+
+    color: #fff;
+    text-align: center;
+}
+
+.div-block-16 {
+
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(75%, transparent)), url(https://uploads-ssl.webflow.com/6250681…/62d1a48…_e589957….gif);
+    background-image: linear-gradient(180deg, #000, transparent 75%), url("./images/62d1a48b2cf22e9c9f29e82f_e5899572ecace2b0895b36db7703a001.gif");
+    background-position: 0px 0px, 0px 0px;
+    background-size: auto, cover;
+    color: #fff;
+    text-align: center;
+}
+
+.dex---mint-button {
+    padding: 10px;
+    text-decoration: none;
+    margin: 20px 10px 60px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #5926a9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5926a9), to(#000));
+    background-image: linear-gradient(180deg, #5926a9, #000);
+    font-family: 'Changa One', Impact, sans-serif;
+    color: #fff;
+}
+
+.dex---mint-button:hover {
+    color: gray;
+}
+
+.pg---diet-button {
+    margin: 20px 10px 60px 25px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#03907a), to(#000));
+    background-image: linear-gradient(180deg, #03907a, #000);
+    font-family: 'Changa One', Impact, sans-serif;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.pg---diet-button:hover {
+    color: gray;
+}
+
+.wagmiq---shop-button {
+    margin: 20px 10px 60px 25px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("./images/62d1a48b2cf22e9c9f29e82f_e5899572ecace2b0895b36db7703a001.gif");
+    background-position: 0px 0px;
+    background-size: auto;
+    font-family: 'Changa One', Impact, sans-serif;
+    color: #fff;
+
+
+    padding: 10px;
+    text-decoration: none;
+}
+
+.wagmiq---shop-button:hover {
+    color: gray;
+}
